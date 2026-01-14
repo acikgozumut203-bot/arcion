@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ARCION Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/admin.css" />
+</head>
+<body>
+
+  <h1>ARCION – Admin Panel</h1>
+
+  <form id="codeForm">
+    <input type="text" id="title" placeholder="Kod başlığı" required />
+
+    <select id="language" required>
+      <option value="">Dil seç</option>
+      <option>JavaScript</option>
+      <option>Python</option>
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>Java</option>
+      <option>C++</option>
+    </select>
+
+    <textarea id="description" placeholder="Kod açıklaması" required></textarea>
+
+    <textarea id="code" placeholder="Kodun kendisi" rows="10" required></textarea>
+
+    <button type="submit">Kodu Yayınla</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

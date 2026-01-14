@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>ARCION</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Stil -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Kod renklendirme -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="top-bar">
+    <div class="left">
+      <button id="menuBtn" class="menu-btn">☰</button>
+      <span class="logo">ARCION</span>
+    </div>
+
+    <div class="right">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Kod ara..."
+      />
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar hidden">
+    <h3>Kod Dilleri</h3>
+    <ul id="languageList">
+      <!-- JS dolduracak -->
+    </ul>
+  </aside>
+
+  <!-- MAIN -->
+  <main id="content">
+    <div id="codeList" class="code-list">
+      <!-- Kod kartları buraya gelecek -->
+    </div>
+  </main>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/filter.js"></script>
+
+  <!-- highlight.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</body>
+</html>

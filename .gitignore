@@ -1,0 +1,38 @@
+# ======================
+# NODE
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# ENV
+# ======================
+.env
+
+# ======================
+# DATABASE
+# ======================
+backend/db/database.sqlite
+backend/db/*.sqlite
+backend/db/*.db
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / EDITOR
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# BUILD / CACHE
+# ======================
+dist/
+build/
+.cache/
